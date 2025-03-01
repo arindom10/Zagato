@@ -4,7 +4,7 @@ import { MessageSquare, ArrowRight } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#050510] text-white py-10 px-4 md:px-8 lg:px-16">
+    <footer className="bg-[#060616] text-white py-10 px-4 md:px-8 lg:px-16">
       {/* Top section with heading and button */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
         <h2 className="text-2xl md:text-3xl font-bold flex items-center gap-2">
