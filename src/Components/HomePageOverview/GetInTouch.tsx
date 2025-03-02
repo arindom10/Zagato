@@ -9,7 +9,7 @@ export default function GetInTouch() {
       <div className="bg-white shadow-lg rounded-xl overflow-hidden max-w-3xl w-full">
         <div className="text-center">
           <span className="text-[#FF6B00] text-sm uppercase tracking-wider font-medium">
-            //CONTACT US
+            CONTACT US
           </span>
           <h1 className="text-3xl font-bold mt-2 text-[#0F0F1B]">
             GET IN TOUCH
