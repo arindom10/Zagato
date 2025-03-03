@@ -5,9 +5,9 @@ import { ArrowRight } from "lucide-react";
 
 export default function GetInTouch() {
   return (
-    <div className="flex items-center justify-center min-h-screen px-4">
-      <div className="bg-white shadow-lg rounded-xl overflow-hidden max-w-3xl w-full">
-        <div className="text-center">
+    <div className="flex items-center justify-center min-h-screen bg-white px-10">
+      <div className="w-[80%] bg-white shadow-lg rounded-xl overflow-hidden">
+        <div className="text-center pt-6">
           <span className="text-[#FF6B00] text-sm uppercase tracking-wider font-medium">
             CONTACT US
           </span>
@@ -15,14 +15,14 @@ export default function GetInTouch() {
             GET IN TOUCH
           </h1>
         </div>
+
         <div className="grid md:grid-cols-2">
-          {/* Left Side: Form */}
           <form className="p-6 md:p-8 space-y-6">
             <div className="grid grid-cols-2 gap-4">
               <div>
-                <label className="block text-sm font-semibold text-gray-700">
+                <span className="block text-sm font-semibold text-black">
                   First Name
-                </label>
+                </span>
                 <input
                   type="text"
                   placeholder="Enter your first name"
@@ -30,9 +30,9 @@ export default function GetInTouch() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-semibold text-gray-700">
+                <span className="block text-sm font-semibold text-black">
                   Last Name
-                </label>
+                </span>
                 <input
                   type="text"
                   placeholder="Enter your last name"
@@ -42,9 +42,9 @@ export default function GetInTouch() {
             </div>
 
             <div>
-              <label className="block text-sm font-semibold text-gray-700">
+              <span className="block text-sm font-semibold text-black">
                 Email
-              </label>
+              </span>
               <input
                 type="email"
                 placeholder="Enter your valid email"
@@ -53,9 +53,9 @@ export default function GetInTouch() {
             </div>
 
             <div>
-              <label className="block text-sm font-semibold text-gray-700">
+              <span className="block text-sm font-semibold text-black">
                 Phone Number
-              </label>
+              </span>
               <input
                 type="tel"
                 placeholder="Enter your valid phone number"
@@ -64,35 +64,34 @@ export default function GetInTouch() {
             </div>
 
             <div>
-              <label className="block text-sm font-semibold text-gray-700">
+              <span className="block text-sm font-semibold text-black">
                 Leave a Comment
-              </label>
+              </span>
               <textarea
                 placeholder="Write a message..."
-                className="w-full bg-gray-100 px-4 py-3 rounded border border-gray-300 focus:outline-none text-sm min-h-[120px] resize-none mt-1"
+                className="w-full bg-gray-100 text-black px-4 py-3 rounded border border-gray-300 focus:outline-none text-sm min-h-[120px] resize-none mt-1"
               ></textarea>
             </div>
 
             <button
               type="submit"
-              className="w-full bg-[#0F0F1B] hover:bg-[#0F0F1B]/90 text-white py-3 rounded-xl transition-colors duration-200 text-sm font-medium flex items-center justify-center"
+              className="w-full bg-[#0F0F1B] text-white hover:bg-white hover:text-[#050510] border border-black py-3 rounded-xl transition-colors duration-200 text-sm font-medium flex items-center justify-center"
             >
               Send Message
-              <ArrowRight size={18} className="ml-2" />
+              <ArrowRight size={18} className="ml-2 " />
             </button>
           </form>
 
-          {/* Right Side: Image */}
           <div className="relative hidden md:block">
             <Image
               src="https://i.ibb.co.com/ynydPGYK/Image-1.webp"
               alt="Contact visual"
               width={500}
               height={500}
-              className="object-cover rounded-r-xl h-full"
+              className="object-cover rounded-r-xl h-full w-full"
               priority
             />
-            <div className="absolute inset-0 bg-black/40 rounded-r-xl"></div>
+            <div className="absolute inset-0 bg-black/30 rounded-r-xl"></div>
           </div>
         </div>
       </div>
