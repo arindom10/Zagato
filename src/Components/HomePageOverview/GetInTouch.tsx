@@ -82,13 +82,13 @@ export default function GetInTouch() {
             </button>
           </form>
 
-          <div className="relative hidden md:block">
+          <div className="relative hidden md:block h-[500px]">
             <Image
               src="https://i.ibb.co.com/ynydPGYK/Image-1.webp"
               alt="Contact visual"
-              width={500}
-              height={500}
-              className="object-cover rounded-r-xl h-full w-full"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-r-xl"
               priority
             />
             <div className="absolute inset-0 bg-black/30 rounded-r-xl"></div>
